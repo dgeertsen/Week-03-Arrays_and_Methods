@@ -3,7 +3,7 @@ public class MoreArrays {
 
 
 		// TODO Auto-generated method stub
-		
+	public static void main(String[] args) {
 		//Initialize array in 1 line.
 		String[] products =new String[] {"Carrots","Pinapple","Tomatos"};
 	
