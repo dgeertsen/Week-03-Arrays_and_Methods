@@ -40,6 +40,8 @@ public class Lab_Part_2 {
 		//an even amount of letters is greater than the sum of those with odd amount of letters
 		System.out.println(letterSum(names));
 		//write a method that tests if a string is a palindrome
+		System.out.println(isPalindrome("Devon"));
+		System.out.println(isPalindrome("racecar"));
 		
 	}
 	//Greeting Method
@@ -147,13 +149,13 @@ public class Lab_Part_2 {
 		}
 	}
 	
+	//test if string is Palindrome
 	public static boolean isPalindrome(String myString) {
 		for(int i =0; i<myString.length();i++){
-			
-			if(myString.charAt(i)!=myString.charAt(myString.length()-i-1)) {
+			if(myString.charAt(i)!=myString.charAt(myString.length()-i-1))
 				return false;
-			}
 		}
+		return true;
 	}
 	
 }
